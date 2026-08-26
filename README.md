@@ -28,6 +28,8 @@ Otwórz plik szablonu i na podstawie planowanej ramówki TV Puls uzupełnij nast
 * `Type`
 * `Duration`
 * `ATV`
+* `Premiere`
+* `Season`
 
 ⚠️ **Krytyczne zasady mapowania:**
 1. **Zgodność nazw:** Nazwy programów w kolumnie `Programme` muszą być w 100% zgodne z nazwami historycznymi (możesz je zweryfikować z plikiem `Processed data/data.xlsx`).
