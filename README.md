@@ -7,7 +7,7 @@ Repozytorium zawiera kod i architekturę modelu opartego na algorytmie XGBoost, 
 Postępuj zgodnie z poniższymi krokami, aby wygenerować prognozę na kolejny miesiąc. Wszystkie operacje na plikach muszą odbywać się w **folderze roboczym całego projektu**.
 
 ### Krok 1: Przygotowanie danych wejściowych
-Wyeksportuj historyczne raporty z systemu i zapisz je w formacie `.csv` wewnątrz folderu `Input_data/` w głównym folderze roboczym:
+Wyeksportuj raporty z systemu TechEdge [Rafał Daszuta / Puls (m)] i zapisz je w formacie `.csv` wewnątrz folderu `Input_data/` w głównym folderze roboczym:
 * `ATV_hourly_TSV.csv`
 * `Programmes Puls pg.csv` (raport programowy)
 * `Time Puls dp 15m.csv` (raport z danymi 15-minutowymi)
@@ -28,6 +28,8 @@ Otwórz plik szablonu i na podstawie planowanej ramówki TV Puls uzupełnij nast
 * `Type`
 * `Duration`
 * `ATV`
+* `Premiere`
+* `Season`
 
 ⚠️ **Krytyczne zasady mapowania:**
 1. **Zgodność nazw:** Nazwy programów w kolumnie `Programme` muszą być w 100% zgodne z nazwami historycznymi (możesz je zweryfikować z plikiem `Processed data/data.xlsx`).
